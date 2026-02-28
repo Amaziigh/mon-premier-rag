@@ -7,3 +7,4 @@ __pycache__/
 CLAUDE.local.md
 node_modules/
 extracted_images/
+docs/
