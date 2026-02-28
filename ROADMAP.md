@@ -31,7 +31,7 @@ Objectif : passer du prototype au projet structuré.
 - [ ] Structurer le code (séparer configuration, indexation, query)
 - [ ] Ajouter une interface web (Streamlit ou Gradio)
 - [ ] Tester avec différents types de documents
-- [ ] Initialiser le dépôt Git
+- [x] Initialiser le dépôt Git
 
 ---
 
