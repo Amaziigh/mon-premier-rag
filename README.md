@@ -68,9 +68,7 @@ python3 -m venv venv
 source venv/bin/activate
 
 # Installer les dépendances
-pip install llama-index llama-index-embeddings-gemini llama-index-llms-gemini \
-            llama-index-vector-stores-chroma chromadb \
-            pypdf pymupdf streamlit python-dotenv google-generativeai pillow
+pip install -r requirements.txt
 ```
 
 ### Configuration
@@ -119,8 +117,6 @@ mon-premier-rag/
 │   └── test_api.py           # Vérifier les modèles disponibles
 ├── docs/                 # PDFs à indexer (gitignored)
 ├── chroma_db/            # Base vectorielle persistante (gitignored)
-├── FORMATION.md          # Notes pédagogiques (8 modules)
-├── ROADMAP.md            # Feuille de route du projet
 └── .env                  # Clé API (gitignored)
 ```
 
@@ -128,7 +124,7 @@ mon-premier-rag/
 
 ## Parcours d'apprentissage
 
-Ce projet a été construit brique par brique, en suivant une approche progressive documentée dans [`FORMATION.md`](FORMATION.md) :
+Ce projet a été construit brique par brique, en suivant une approche progressive :
 
 | Module | Thème |
 |--------|-------|
@@ -141,7 +137,6 @@ Ce projet a été construit brique par brique, en suivant une approche progressi
 | 6 | Interface web — Streamlit, cache, historique de conversation |
 | 7 | RAG multimodal — extraction d'images, Gemini Vision |
 
-La feuille de route complète est dans [`ROADMAP.md`](ROADMAP.md).
 
 ---
 

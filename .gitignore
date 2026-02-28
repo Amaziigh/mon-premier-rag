@@ -5,6 +5,8 @@ __pycache__/
 .DS_Store
 .claude/
 CLAUDE.local.md
+ROADMAP.md
+FORMATION.md
 node_modules/
 extracted_images/
 docs/

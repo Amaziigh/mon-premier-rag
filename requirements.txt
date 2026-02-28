@@ -1,0 +1,20 @@
+# Framework RAG
+llama-index==0.14.14
+llama-index-embeddings-gemini==0.4.2
+llama-index-llms-gemini==0.6.2
+llama-index-vector-stores-chroma==0.5.5
+
+# Base vectorielle
+chromadb==1.5.0
+
+# Lecture PDF
+pypdf==6.7.0
+PyMuPDF==1.27.1
+
+# Interface web
+streamlit==1.54.0
+
+# Utilitaires
+python-dotenv==1.2.1
+pillow==10.4.0
+google-generativeai==0.8.6
