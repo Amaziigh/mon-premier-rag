@@ -1,0 +1,9 @@
+venv/
+chroma_db/
+.env
+__pycache__/
+.DS_Store
+.claude/
+CLAUDE.local.md
+node_modules/
+extracted_images/
