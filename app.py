@@ -4,14 +4,14 @@
 
 # ÉTAPE 0 — On importe nos outils
 # Chaque ligne = un outil qu'on sort de la boîte à outils
-import os
+from dotenv import load_dotenv
 from llama_index.core import VectorStoreIndex, SimpleDirectoryReader, Settings
 from llama_index.llms.gemini import Gemini
 from llama_index.embeddings.gemini import GeminiEmbedding
 
 # ÉTAPE 1 — On configure la clé API
-# C'est ton badge d'accès aux services Google AI
-os.environ["GOOGLE_API_KEY"] = "REMOVED_API_KEY"
+# Charge la clé depuis le fichier .env (jamais en dur dans le code !)
+load_dotenv()
 
 # ÉTAPE 2 — On choisit nos outils IA
 # Le modèle d'embedding : transforme le texte en vecteurs (le bibliothécaire qui catalogue)

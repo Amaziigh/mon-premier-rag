@@ -2,12 +2,12 @@
 # VOIR LE RETRIEVAL — debug_retrieval.py
 # ====================================
 
-import os
+from dotenv import load_dotenv
 from llama_index.core import VectorStoreIndex, SimpleDirectoryReader, Settings
 from llama_index.llms.gemini import Gemini
 from llama_index.embeddings.gemini import GeminiEmbedding
 
-os.environ["GOOGLE_API_KEY"] = "REMOVED_API_KEY"
+load_dotenv()
 
 Settings.embed_model = GeminiEmbedding(model_name="models/gemini-embedding-001")
 Settings.llm = Gemini(model="models/gemini-2.5-flash")
