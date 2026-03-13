@@ -1,0 +1,10 @@
+venv/
+docs/
+extracted_images/
+.env
+.git/
+.claude/
+__pycache__/
+*.pyc
+widget/
+debug_*.py

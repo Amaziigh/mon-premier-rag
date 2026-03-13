@@ -1,0 +1,19 @@
+# Dépendances API uniquement (pour Docker / Cloud Run)
+# Version allégée de requirements.txt — sans streamlit, pypdf, PyMuPDF, pillow
+
+# Framework RAG
+llama-index==0.14.14
+llama-index-embeddings-gemini==0.4.2
+llama-index-llms-gemini==0.6.2
+llama-index-vector-stores-chroma==0.5.5
+
+# Base vectorielle
+chromadb==1.5.0
+
+# Utilitaires
+python-dotenv==1.2.1
+google-generativeai==0.8.6
+
+# API
+fastapi==0.115.12
+uvicorn==0.34.2

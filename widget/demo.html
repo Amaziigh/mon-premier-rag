@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat Widget — Demo</title>
+  <link rel="stylesheet" href="chat-widget.css">
+  <style>
+    /* Simule le look du portfolio pour tester */
+    body {
+      margin: 0;
+      background: #0a0a0a;
+      color: #e0e0e0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    .demo {
+      text-align: center;
+      padding: 20px;
+    }
+    .demo h1 {
+      color: #64ffda;
+      font-size: 1.5rem;
+      margin-bottom: 8px;
+    }
+    .demo p {
+      color: #888;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="demo">
+    <h1>Portfolio — Demo</h1>
+    <p>Cliquez sur le bouton en bas à droite pour tester l'assistant IA.</p>
+  </div>
+
+  <!-- Widget : 2 fichiers à inclure, data-api pointe vers l'API -->
+  <script src="chat-widget.js" data-api="http://localhost:8000"></script>
+</body>
+</html>
